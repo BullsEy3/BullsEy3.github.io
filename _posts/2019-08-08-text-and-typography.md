@@ -7,7 +7,7 @@ tags: [SNMP]
 math: true
 mermaid: true
 image:
-  path: 
+  path: https://i.postimg.cc/wjgXTrWD/screenshot-50.png
   width: 800
   height: 500
   alt: Responsive rendering of Chirpy theme on multiple devices.
