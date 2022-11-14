@@ -1,13 +1,13 @@
 ---
 title: SNMP
-author: Randbond
+author: 
 date: 2022-11-14
 categories: [Protocols]
 tags: [SNMP]
 math: true
 mermaid: true
 image:
-  path: /commons/devices-mockup.png
+  path: 
   width: 800
   height: 500
   alt: Responsive rendering of Chirpy theme on multiple devices.
@@ -88,7 +88,7 @@ Let's open onesixtyone by going to Applications --> Kali Linux --> Information G
 
 The syntax of onesixtyone is pretty simple and  straightforward.
 
-kali > onesixtyone  [options] <host IP> <community string private or public>
+``kali > onesixtyone  [options] <host IP> <community string private or public>``
 
 Like an dictionary-based password cracker, the dictionary you use with onesixtyone is  critical. In the case of onesixtyone, it has a built-in dictionary. It's small, but contains many of the commonly used strings with SNMP. If you are creating your own dictionary for SNMP cracking, this is a good starting point, but you may want to expand it with variations of the domain name or company name as network administrators don't usually put much effort in creating complex strings for SNMP.. For instance, if the company is Microsoft, you might try strings that a lazy admin might use, such as microsoft-public, microsoft-private, microsoft-snmp,  microsoft-network, etc. 
 
@@ -96,7 +96,7 @@ As you can see, it includes a short list of widely used SMNP community strings.
 
 In this exercise, we will use this short and simple dictionary to see whether we can find that community string on our network and then use it in snmpcheck to gather all the info on the target.
 
-kali > onesixtyone  192.168.1.102 -c /usr/share/doc/onesixtyone/dict.txt
+`` kali > onesixtyone  192.168.1.102 -c /usr/share/doc/onesixtyone/dict.txt ``
 
 ![image](https://i.postimg.cc/7LPswHD9/screenshot-9.png)
 
