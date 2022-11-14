@@ -21,7 +21,7 @@ timezone: Asia/Kolkata
 
 title: BullsEy3                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Writeups/Notes   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -33,7 +33,7 @@ github:
   username: BullsEy3             # change to your github username
 
 # twitter:
-  username: twitter_username            # change to your twitter username
+#  username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
